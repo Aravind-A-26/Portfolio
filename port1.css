@@ -1,0 +1,135 @@
+*{
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	background-color:lightblue;
+}
+#nav{
+	min-height:150px;
+}
+#nav h1{
+	padding-top:8px;
+	font-family: "Oleo Script", serif;
+    font-weight: 700;
+    font-style: normal;
+	text-align:center;
+}
+#nav h3{
+	text-align:center;
+	margin-top:20px;
+  font-family: "Exo", serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+#nav img{
+	width:30px;
+}
+.nav,a{
+	background-color:#dbb4b5;
+	text-align:center;
+	text-decoration:none;
+	color:black;
+	padding-right:60px;
+    padding-left:60px;	
+    font-family: "Exo", serif;
+  font-optical-sizing: auto;
+  font-weight:<weight>;
+  font-style: normal;
+}
+img{
+	width:100px;
+}
+.about{
+	background-color:white;
+	min-height:500px;
+	text-align:center;
+	width:99%;
+	margin:auto;
+	padding:2px;
+	margin-bottom:30px;
+}
+.headings{
+	font-family: "Oleo Script", serif;
+    font-weight: 200;
+    font-style: normal;
+	text-align:center;
+	margin-bottom:30px;
+}
+.about img{
+	border-radius:20px;
+}
+.about p{
+	margin-top:50px;
+	 font-family: "Exo", serif;
+  font-optical-sizing: auto;
+  font-weight:<weight>;
+  font-style: normal;
+  text-align:justify;
+  line-height:30px;
+  word-spacing:6px;
+}
+.project{
+    background-color:white;
+	min-height:250px;
+	line-height:50px;
+	text-align:left;
+	width:99%;
+	margin:auto;
+	padding-left:2px;
+	margin-bottom:30px;
+}
+ul{
+	padding-left:30px;
+}
+.certificate{
+	background-color:white;
+	min-height:250px;
+	line-height:50px;
+	text-align:left;
+	width:99%;
+	margin:auto;
+	padding-left:2px;
+	padding-bottom:15px;
+	margin-bottom:30px;
+}
+ol{
+	padding-left:30px;
+}
+.contact{
+	background-color:white;
+	min-height:300px;
+	line-height:40px;
+	text-align:center;
+	width:99%;
+	margin:auto;
+	margin-bottom:30px;
+}
+input{
+	border:1px solid black;
+}
+textarea{
+	height:50px;
+	border:1px solid black;
+}
+button{
+	border:1px solid black;
+	padding:4px;
+	border-radius:4px;
+}
+button:hover{
+	background-color:red;
+}
+.footer{
+	font-size:10px;
+	min-height:20px;
+	line-height:20px;
+	background-color:white;
+	text-align:center;
+	margin:auto;
+	width:99%;
+	color:black;
+}
